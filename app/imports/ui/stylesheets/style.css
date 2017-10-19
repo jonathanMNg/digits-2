@@ -1,0 +1,13 @@
+body {  /* Move body of page below navbar. */
+}
+.ui.header.borderless.menu {
+  border-radius: 0px;
+  margin: 0px;
+  background-color: #5DBCD2;
+}
+a#login-sign-in-link.login-link-text {
+  color: white;
+}
+.celled-table {
+  margin-top: 20px;
+}

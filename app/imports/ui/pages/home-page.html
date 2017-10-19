@@ -1,0 +1,24 @@
+<template name="Home_Page">
+  <div class="ui celled-table container">
+    <table class="ui single line celled table">
+      <thead>
+      <tr><th>First</th>
+        <th>Last</th>
+        <th>Address</th>
+        <th>Phone</th>
+        <th>Email</th>
+      </tr></thead>
+      <tbody>
+      {{#each contact in contactsList}}
+      <tr>
+        <td>{{contact.first}}</td>
+        <td>{{contact.last}}</td>
+        <td>{{contact.address}}</td>
+        <td>{{contact.telephone}}</td>
+        <td>{{contact.email}}</td>
+      </tr>
+      {{/each}}
+      </tbody>
+    </table>
+  </div>
+</template>
